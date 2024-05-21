@@ -1,0 +1,58 @@
+{
+  "name": "camel-case-pro",
+  "displayName": "camelCasePro",
+  "description": "camelCase AND snake_case mutual convert",
+  "version": "0.0.1",
+  "author": {
+    "email": "linauror@gmail.com",
+    "name": "linauror"
+},
+"repository": {
+    "url": "https://github.com/linauror/CamelCasePro"
+},
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "camelCasePro.convert",
+        "title": "camelCase snake_case mutual convert"
+      }
+    ],
+    "keybindings":[
+      {
+        "command": "camelCasePro.convert",
+        "key": "ctrl+alt+c",
+        "mac": "cmd+alt+c",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.89.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^7.7.1",
+    "@typescript-eslint/parser": "^7.7.1",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.3.9"
+  }
+}
