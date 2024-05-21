@@ -12,8 +12,6 @@ Use `ctrl+alt+c` for Windows/Linux and `ctrl+cmd+c` on Mac, Customizable shortcu
 
 - 在 Windows/Linux 下使用 `ctrl+alt+c` 及 Mac 下使用 `ctrl+cmd+c` 来执行，你可以自定义快捷键。
 
-# Release Notes 版本
+# Change Log 更新日志
 
-0.0.1
-
-Initial release 初始发布
+See Change Log [here](CHANGELOG.md)

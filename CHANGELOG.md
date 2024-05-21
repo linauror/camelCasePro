@@ -9,3 +9,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Added 新增
 
 - v0.0.1 Initial release 初始发布
+- v0.0.2 Update README.md 更新README.md
