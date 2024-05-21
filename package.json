@@ -3,12 +3,13 @@
   "displayName": "camelCasePro",
   "description": "camelCase AND snake_case mutual convert",
   "version": "0.0.1",
+  "publisher": "linauror",
   "author": {
     "email": "linauror@gmail.com",
     "name": "linauror"
 },
 "repository": {
-    "url": "https://github.com/linauror/CamelCasePro"
+    "url": "https://github.com/linauror/camelCasePro"
 },
   "engines": {
     "vscode": "^1.89.0"
